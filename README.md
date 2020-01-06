@@ -6,11 +6,12 @@ Following instructions found in Overall_Task.txt
 
 Overall task: you are going to create a model population of neurons that are tuned for depth (really, the variable here is
 arbitrary but lets call it depth), generate random Poisson draws of population activity, and use a linear decoder to classify
-depth as near vs far in a simulated depth discrimination task1) Create a Gaussian depth tuning curve with a preferred (peak)
-depth of zero degrees.  Your depth axis (x-axis) should range from -2 deg to +2deg.  Choose the parameters of the Gaussian
-function such that your curve has the following properties: a peak response of 50 spikes/sec,  a tuning width (full width at
-half-maximal amplitude) of 0.2 deg, and a minimum (baseline) response of 5 spikes/sec.   Make a plot of the tuning curve that
-shows response as a function of depth.
+depth as near vs far in a simulated depth discrimination task.
+
+1) Create a Gaussian depth tuning curve with a preferred (peak) depth of zero degrees.  Your depth axis (x-axis) should range
+from -2 deg to +2deg.  Choose the parameters of the Gaussian function such that your curve has the following properties: a
+peak response of 50 spikes/sec,  a tuning width (full width at half-maximal amplitude) of 0.2 deg, and a minimum (baseline)
+response of 5 spikes/sec. Make a plot of the tuning curve that shows response as a function of depth.
 
 2) Next, generalize your code such that you create depth tuning curves for a population of 100 neurons.  The preferred depths
 of your 100 neurons should be uniformly distributed between -2 deg and +2 deg.  Otherwise, the tuning curves can be identical
